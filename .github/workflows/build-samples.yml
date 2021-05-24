@@ -10,12 +10,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Fetch connector depdencies
-      working-directory: ./scripts/dependency-fetcher
-      env:
-        packageUser: ${{ github.actor }}
-        packagePAT: ${{ secrets.GITHUB_TOKEN }}
-      run: ./gradlew build
+    # - name: Fetch connector depdencies
+    #   working-directory: ./scripts/dependency-fetcher
+    #   env:
+    #     packageUser: ${{ github.actor }}
+    #     packagePAT: ${{ secrets.GITHUB_TOKEN }}
+    #   run: ./gradlew build
     # Integration Samples
     - name: Google calendar to twilio
       uses: ballerina-platform/ballerina-action@slalpha5
