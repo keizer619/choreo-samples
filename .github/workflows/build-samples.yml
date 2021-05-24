@@ -77,54 +77,54 @@ jobs:
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/content-based-routing
+          build ./samples/services/content-based-routing/sample.bal
     - name: Echo service
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/echo-service
+          build ./samples/services/echo-service/sample.bal
     - name: Header based routing
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/header-based-routing
+          build ./samples/services/header-based-routing/sample.bal
     - name: Hello World
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/hello-world
+          build ./samples/services/hello-world/sample.bal
     - name: JSON to JSON transformation
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/json-to-json-transformation
+          build ./samples/services/json-to-json-transformation/sample.bal
     - name: JSON to XML conversion
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/json-to-xml-conversion
+          build ./samples/services/json-to-xml-conversion/sample.bal
     - name: Periodical scheduled task
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/periodical-scheduled-task
+          build ./samples/services/periodical-scheduled-task/sample.bal
     - name: Scatter gather
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/scatter-gather
+          build ./samples/services/scatter-gather/sample.bal
     - name: Service Chaining
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/service-chaining
+          build ./samples/services/service-chaining/sample.bal
     - name: Simple passthrough
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/simple-passthrough
+          build ./samples/services/simple-passthrough/sample.bal
     - name: XML to JSON conversion
       uses: ballerina-platform/ballerina-action@slalpha5
       with:
         args:
-          build ./samples/services/xml-to-json-conversion
+          build ./samples/services/xml-to-json-conversion/sample.bal
